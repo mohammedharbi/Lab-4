@@ -32,7 +32,7 @@ public class Triangle extends Shape{
 
     @Override
     public double calculateCircumference() {
-        return height;
+        return base + height + Math.sqrt(base * base + height * height);
     }
 
 }
