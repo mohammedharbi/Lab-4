@@ -11,7 +11,10 @@ public class Main {
                 "The Area: "+c1.calculateArea()+"\n" +
                 "The Circumference: "+c1.calculateCircumference());
         c1.setRadius(5);
-        System.out.println("\nThe radius of a circle:"+c1.getRadius());
+        c1.setX(2);
+        c1.setY(2);
+        System.out.println("\nThe radius of a circle:"+c1.getRadius()+"\n" +
+                "The Position of circle: x= "+c1.getX()+" Y= "+c1.getY()+"\n");
 
         System.out.println("---------Rectangle---------");
 
